@@ -11,3 +11,8 @@ Then we have our `Repository layer`, here it is called PersonRepository and this
 interacting with Service which could be a data store.
 And the bottom layer is the `Service` layer, helps to provide data for the application, it can database, API or any data store. 
 Currently,the application service uses a hardcoded array of data.
+
+# Testing the project
+1. Navigate to the `Application` folder, which is the root of the project. 
+2. Install packages using the composer cli with the command `composer install`
+3. Run the project using the PHP cli with the command `php -S localhost:3000 index.php`
